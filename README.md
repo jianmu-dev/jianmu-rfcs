@@ -1,5 +1,5 @@
 
-#### Jianmu RFCs
+# Jianmu RFCs
 
 Jianmu(建木)使用RFC(request for comments)流程的工作方式来收集对Jianmu的重大功能变更或架构设计决策
 
