@@ -1,4 +1,3 @@
-# jianmu-rfcs
 
 #### Jianmu RFCs
 
