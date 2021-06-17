@@ -30,21 +30,21 @@ Bug修复和优化，没有产生逻辑语义上的修改时
 
 # 如何提交一个RFC
 
-1、Fork本仓库
+1. Fork本仓库
 
-1、复制 `000-example` RFC模板，改为新提案的名字，例如： `000-my-proposal`
+1. 复制 `000-example` RFC模板，改为新提案的名字，例如： `000-my-proposal`
 
-1、在 `000-my-proposal/proposal.md` 中写下你的提案
+1. 在 `000-my-proposal/proposal.md` 中写下你的提案
 
    *  参考建木的[设计原则](DESIGN_PRINCIPLES.md)
 
    *  在你的RFC目录下可以提交你需要的图片、示例代码等资源
 
-1、提交Pull Request
+1. 提交Pull Request
 
    *  简单描述即可：详细信息应该在你的提案中
 
-1、RFC将会被分配给核心团队的一名成员，他讲负责提供反馈直到该RFC通过或关闭。
+1. RFC将会被分配给核心团队的一名成员，他讲负责提供反馈直到该RFC通过或关闭。
 
 # RFC评审
 
