@@ -30,6 +30,16 @@ Bug修复和优化，没有产生逻辑语义上的修改时
 
 # 如何提交一个RFC
 
+1、Fork本仓库
+
+2、复制 `000-example` RFC模板，改为新提案的名字，例如： `000-my-proposal`
+
+3、在 `000-my-proposal/proposal.md` 中写下你的提案
+
+   *  参考建木的[设计原则](DESIGN_PRINCIPLES.md)
+
+   *  在你的RFC目录下可以提交你需要的图片、示例代码等资源
+
 # RFC评审
 
 欢迎Jianmu用户与Jianmu核心团队一起对RFC进行评审。来自不同角度的反馈与看法对于确定提案的效果、影响与优先级非常有帮助。
