@@ -40,9 +40,18 @@ Bug修复和优化，没有产生逻辑语义上的修改时
 
    *  在你的RFC目录下可以提交你需要的图片、示例代码等资源
 
-1. 提交Pull Request
+1. 提交Pull Request, Pull Request的编号决定了RFC的编号
 
    *  简单描述即可：详细信息应该在你的提案中
+
+1. 使用Pull Request的编号重命名RFC目录, 如: `123-my-proposal`
+
+   *  为了方便查找,请更新PR的描述并插入指向PR中的提案的正文, 如:
+
+   `[提案正文](https://gitee.com/{YOUR NAME}/rfcs/blob/{YOUR BRANCH}/123-my-proposal/proposal.md)`
+
+1. 请随时通过该PR的评论留下你的问题与思考,这对留下决策过程的记录非常有帮助
+
 
 1. RFC将会被分配给核心团队的一名成员，他将负责提供反馈直到该RFC通过或关闭。
 
