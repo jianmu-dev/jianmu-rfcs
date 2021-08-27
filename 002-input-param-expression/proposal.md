@@ -16,6 +16,11 @@
 
 * dsl示例：
 ```
+param:
+  git_username: ((xxx.xxx))
+  branch: $(xxx.xxx)
+  path: $(xxx.xxx)/$(xxx.xxx)/
+
 qiniu_upload:
   type: jianmu_runner_qiniu:0.1.2
   param:
