@@ -19,11 +19,11 @@
 只支持数字、布尔和null到字符串类型的隐式转换,其他类型不匹配时会报错
 
 如下:
-<pre>
+```
 ${a} + ${b} + `${c}+${d}` == aaabbbccc+ddd 
 
 `${c}+${d}` == ccc+ddd
-</pre>
+```
 
 
 * dsl示例：
@@ -31,12 +31,12 @@ ${a} + ${b} + `${c}+${d}` == aaabbbccc+ddd
 param:
   git_username: ((xxx.xxx))
   branch: $(xxx.xxx)
-  path: $(xxx.xxx)/$(xxx.xxx)/
+  path: `$(xxx.xxx)/$(xxx.xxx)/`
 
 qiniu_upload:
   type: jianmu_runner_qiniu:0.1.2
   param:
-    qiniu_upload_prefix: ${xxx.xxx}/${xxx.xxx}/
+    qiniu_upload_prefix: `${xxx.xxx}/${xxx.xxx}/`
 ```
 
 # 待讨论问题
