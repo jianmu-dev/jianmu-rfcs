@@ -20,7 +20,6 @@
 
 如下:
 <pre>
-
 ${a} + ${b} + `${c}+${d}` == aaabbbccc+ddd 
 
 `${c}+${d}` == ccc+ddd
