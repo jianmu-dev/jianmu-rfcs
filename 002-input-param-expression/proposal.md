@@ -1,3 +1,5 @@
+提案实现进度,见[Issue I48AX6](https://gitee.com/jianmu_dev/jianmu-main/issues/I48AX6)
+
 # 概述
 
 * 输入参数（含，全局参数）支持表达式关联
