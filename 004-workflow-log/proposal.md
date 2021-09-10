@@ -1,3 +1,5 @@
+提案实现进度，见[Issue I49L6O](https://gitee.com/jianmu_dev/jianmu-main/issues/I49L6O)
+
 # 概述
 
 * 增加一个流程日志，以解决某个流程节点在启动执行过程中执行失败，但使用者无法感知的问题
