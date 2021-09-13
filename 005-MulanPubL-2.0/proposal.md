@@ -16,7 +16,6 @@
 * 从Apache 2 License许可证修订为木兰公共许可证（MulanPubL-2.0）。
 * 木兰公共许可证详见：[MulanPubL-2.0](http://license.coscl.org.cn/MulanPubL-2.0/index.html)
 
-
 # 待讨论问题
 
 无
