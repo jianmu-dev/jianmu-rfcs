@@ -16,7 +16,9 @@
 
 ```
 hub:
-  api-key: ((hub.api-key))
+  url: https://hub.jianmu.dev/hub/
+  ak: ((hub.ak))
+  sk: ((hub.sk))
 ```
 
 * 方案二： 在Pipeline/Workflow定义的每个节点部分添加hub相关语法定义：
@@ -32,7 +34,9 @@ pipeline:
       commit_branch: ${branch_name}
       remote_url: https://gitee.com/jianmu-dev/jianmu-workflow-core.git
     hub:
-      api-key: ((hub.api-key))
+      url: http://172.20.52.15:5000/
+      ak: ((hub.ak))
+      sk: ((hub.sk))
 ```
 
 # 待讨论问题
