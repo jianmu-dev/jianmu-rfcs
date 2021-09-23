@@ -1,4 +1,4 @@
-提案实现进度，见[Issue I49L6O](https://gitee.com/jianmu_dev/jianmu-main/issues/I49L6O)
+提案实现进度，见[Issue I49L6O](https://gitee.com/jianmu-dev/jianmu-main/issues/I49L6O)
 
 # 概述
 
