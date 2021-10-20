@@ -1,5 +1,7 @@
 # 概述
 
+提案实现，见[Issue I4EQ0W](https://gitee.com/jianmu-dev/jianmu-ci-server/issues/I4EQ0W)
+
 * 考虑gitee上针对代码备份和后续社区运营的推广更便捷。
 
 # 问题描述
