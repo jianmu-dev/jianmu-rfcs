@@ -1,4 +1,4 @@
-提案实现进度,见[Issue I48AX6](https://gitee.com/jianmu_dev/jianmu-main/issues/I48AX6)
+提案实现进度,见[Issue I48AX6](https://gitee.com/jianmu-dev/jianmu-ci-server/issues/I48AX6)
 
 # 概述
 
