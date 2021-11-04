@@ -1,3 +1,5 @@
+提案实现进度，见[Issue I4GTGW](https://gitee.com/jianmu-dev/jianmu-ci-server/issues/I4GTGW)
+
 # 概述
 
 * 优化**全局参数**声明方式
