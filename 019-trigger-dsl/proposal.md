@@ -34,7 +34,7 @@ trigger:
     auth: 
           token: ${trigger.xxx}
           value: ((xxx.xxx))
-    matcher: ${trigger.xxx} == false
+    only: ${trigger.xxx} == false
 ```
 
 
