@@ -1,6 +1,6 @@
 # 概述
 
-- 在节点定义中，增加一个description字段，以便流程可视化界面展示该字段。
+- 在节点定义中，增加一个alias字段，以便流程可视化界面展示该字段。
 
 # 问题描述
 
@@ -13,17 +13,17 @@
 
 # 解决方案
 
-- 节点定义中新增description字段：
+- 节点定义中新增alias字段：
 ```
 pipeline:
   git_clone:
     type: git_clone:1.1.1
-    description: 拉取代码
+    alias: 拉取代码
     param:
       remote_url: XXX
 ```
-- 流程可视化界面显示description
-- 如果没有设置description，默认展示节点名称
+- 流程可视化界面显示alias
+- 如果没有设置alias，默认展示节点名称
 
 
 # 待讨论问题
