@@ -11,16 +11,16 @@
 
 # 约束条件
 
-节点定义校验时，不允许设置下划线开头的输出参数
+节点定义校验时，不允许设置`inner`开头的输出参数
 
 # 解决方案
 
-为节点添加以下划线开头的内置输出参数
+为节点添加以`inner`开头的内置输出参数
 
 如下:
 ```
 # 节点任务执行状态
-_jm_execution_status
+xxx.inner.execution_status
 
 ```
 
@@ -36,7 +36,7 @@ condition:
     sources:
         - yaml_lint
     type: condition
-    expression: ${yaml_lint._jm_execution_status} == "EXECUTION_SUCCEEDED"
+    expression: ${yaml_lint.inner.execution_status} == "EXECUTION_SUCCEEDED"
     cases:
         true: feishu_notice_post1
         false: feishu_notice_post2
