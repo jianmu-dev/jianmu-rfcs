@@ -1,6 +1,6 @@
 # 概述
 
-* 在节点定义中，增加ignore_error字段，用于忽略该节点的错误结果，继续执行流程后续部分。
+* 在全局/节点定义中，增加on-failure字段，用于配置流程或节点执行失败时的处理方式。
 
 # 问题描述
 
@@ -13,19 +13,25 @@
 无  
 
 # 解决方案
-
-为节点添加`ignore_error`字段，若不配置，则默认值为`false`，即不忽略错误结果，执行错误时流程终止。  
-显式配置为`true`时，忽略该节点的执行错误，执行错误时流程继续向后执行。  
+  
+在全局/节点添加`on-failure`字段，优先级：节点>全局。  
+语法：  
+on-failure: terminate （自动，默认值）。  
+on-failure: ignore （自动），具体选哪个先要确定任务状态机。  
+on-failure: manual （手动，可人工操作terminate / ignore / retry）。   
 
 * 引用示例：
+全局：  
 ```
-nodejs_build:
-  ignore_error: "true"
-  type: "nodejs_build:1.2.1-12.16.2"
-  param:
-    registry_url: "https://registry.npm.taobao.org"
-    workspace: "/tmp"
-    disturl_url: "https://npm.taobao.org/dist"
+global:
+  on-failure: xxx
+```
+节点：  
+```
+pipeline:
+  git_clone:
+    on-failure: xxx
+    type: xxx:xxx
 ```
 
 # 待讨论问题
