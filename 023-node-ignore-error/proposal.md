@@ -1,3 +1,5 @@
+提案实现见[Issue](https://gitee.com/jianmu-dev/jianmu-ci-server/issues/I4RNKB)
+
 # 概述
 
 * 在全局/节点定义中，增加on-failure字段，用于配置流程或节点执行失败时的处理方式。
